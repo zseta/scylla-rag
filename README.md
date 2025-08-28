@@ -6,16 +6,16 @@ The chatbot allows users to ask questions about ScyllaDB, retrieves relevant sec
 
 ## Tech Stack
 
-* ScyllaDB: high-performance NoSQL database for storing vectors and metadata.
-* LlamaIndex: chunking mechanism
-* Ollama: Model downloads and text embedding
+* [ScyllaDB Cloud](https://cloud.scylladb.com/): high-performance NoSQL database for storing vectors and metadata.
+* [LlamaIndex](https://docs.llamaindex.ai/en/stable/): chunking mechanism
+* [Ollama](https://ollama.com/): Model downloads and text embedding
 
 
 ## Components
 
-* Document ingestion: Parses and chunks ScyllaDB documentation into semantically searchable text segments
-* Vector embeddings: Converts text into vector representations using an embedding model
-* ScyllaDB as Vector Store: Stores embeddings and metadata in ScyllaDB for fast similarity search.
+* Document ingestion: parses and chunks ScyllaDB documentation into semantically searchable text segments
+* Vector embeddings: converts text into vector representations using an embedding model
+* ScyllaDB as vector store: stores embeddings and metadata in ScyllaDB for fast similarity search.
 
 ## RAG Pipeline:
 1. Retrieve top-k relevant docs from ScyllaDB.
