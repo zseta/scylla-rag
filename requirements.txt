@@ -1,0 +1,4 @@
+scylla-driver
+ollama
+spacy
+llama-index
